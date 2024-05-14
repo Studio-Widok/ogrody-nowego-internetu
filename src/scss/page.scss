@@ -1,0 +1,13 @@
+@use "variables" as *;
+
+.accent {
+  @include fontAccent();
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.sub-accent {
+  @include fontSubAccent();
+  font-size: 2em;
+  text-transform: uppercase;
+}

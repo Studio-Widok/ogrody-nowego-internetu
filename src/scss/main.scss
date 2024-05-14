@@ -1,4 +1,4 @@
-@import "variables";
+@use "variables" as *;
 
 body {
   @include fontDefault();
@@ -10,4 +10,5 @@ body {
 
 /* general */
 @import "base";
+@import "page";
 @import "mobile";

@@ -8,14 +8,47 @@ $resLarge: 1280px;
 $resTablet: 900px;
 $resPhone: 450px;
 
-// @font-face {
-//   font-family: "Helvetica Neue";
-//   src: url("../media/HelveticaNeueLTProRoman.otf");
-//   font-weight: normal;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Heal the Web A";
+  src: url("../media/HealTheWebA-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Heal the Web B";
+  src: url("../media/HealTheWebB-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("../media/GT-America-Standard-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("../media/GT-America-Standard-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 @mixin fontDefault() {
-  font-family: sans-serif;
+  font-family: "GT America", sans-serif;
+}
+
+@mixin fontAccent() {
+  font-family: "Heal the Web B", sans-serif;
+  font-feature-settings: "ss02" 1;
+}
+
+@mixin fontSubAccent() {
+  font-family: "Heal the Web A", sans-serif;
 }
