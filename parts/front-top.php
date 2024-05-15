@@ -36,8 +36,10 @@
 
   <div></div>
 
+  <img src="./media/logo-eden.svg" alt="eden learning garden" id="eden">
+
   <div id="front-center">
-    <div id="front-logo" class="accent">
+    <div id="front-logo" class="text-logo accent">
       ogrody<br>now<span class="alt">e</span>go<br>int<span
         class="alt">e</span>rn<span class="alt">e</span>tu
     </div>

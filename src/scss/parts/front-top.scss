@@ -9,15 +9,16 @@
   align-items: center;
 
   #front-logo {
-    font-feature-settings: "ss02" 0;
     text-align: center;
     font-size: max(min(9rem, 9vw * $fontRatio), 3rem);
-    line-height: 1;
     margin-bottom: 0.3em;
+  }
 
-    .alt {
-      font-feature-settings: "ss02" 1;
-    }
+  #eden {
+    position: absolute;
+    width: 17%;
+    top: 2%;
+    right: 0;
   }
 
   .bg-image {

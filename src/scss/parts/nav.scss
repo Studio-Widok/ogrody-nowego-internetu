@@ -1,0 +1,25 @@
+nav {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  width: 100%;
+
+  #nav-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #nav-logo {
+    min-width: 18%;
+    font-size: max(min(3rem, 3vw * $fontRatio), 2rem);
+    margin-left: -0.08em;
+  }
+
+  #nav-links {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    text-transform: uppercase;
+  }
+}

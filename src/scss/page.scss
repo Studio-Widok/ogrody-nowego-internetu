@@ -10,6 +10,15 @@
   text-transform: uppercase;
 }
 
+.text-logo {
+  font-feature-settings: "ss02" 0;
+  line-height: 1;
+
+  .alt {
+    font-feature-settings: "ss02" 1;
+  }
+}
+
 .bg-image {
   position: absolute;
   inset: 0;

@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<?php get_part('nav'); ?>
+<?php get_part('nav', ['showLogo' => false]); ?>
 <?php get_part('front-top'); ?>
 <div class="content column">
   <div class="accent">ogrody nowego internetu</div>
