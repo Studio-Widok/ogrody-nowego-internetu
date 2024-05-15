@@ -2,8 +2,17 @@
 
   <div class="accent subtitle">plan dnia (sobota)</div>
 
-  <p>08:30 &ndash; Otwarcie</p>
-  <p>10:00 &ndash; Wstęp do konferencji</p>
+  <div class="list-item">
+    <div class="list-title">
+      <p class="sub-accent">08:30 &ndash; Otwarcie</p>
+    </div>
+  </div>
+
+  <div class="list-item">
+    <div class="list-title">
+      <p class="sub-accent">10:00 &ndash; Wstęp do konferencji</p>
+    </div>
+  </div>
 
   <div class="sub-accent subtitle">nowy internet</div>
 

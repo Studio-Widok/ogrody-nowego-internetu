@@ -1,10 +1,11 @@
 #program-plan {
   .subtitle {
     margin-top: 3em;
+    margin-bottom: 3rem;
   }
 
   .list-item {
-    margin: 0 0 3em 0;
+    margin: 0 0 3rem 0;
 
     .list-title {
       display: flex;
@@ -47,7 +48,7 @@
 
     .list-description {
       height: 0;
-      max-width: 41em;
+      max-width: $contentWidthText;
       overflow: hidden;
       transition: 0.3s;
 

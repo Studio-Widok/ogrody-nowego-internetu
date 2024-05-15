@@ -28,7 +28,6 @@
     position: absolute;
     inset: 0;
     overflow: hidden;
-    // opacity: 0.5;
   }
 
   &__caption {
@@ -119,6 +118,10 @@ button,
 .text {
   font-size: $fontSizeLarge;
   line-height: 1.5;
+}
+
+.text-width {
+  max-width: $contentWidthText;
 }
 
 .title {

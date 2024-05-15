@@ -23,8 +23,8 @@
       class="button">kup bilet</button></a>
   <div class="rmin"></div>
   <div class="text-center uppercase">
-    <a href="http://"><u>program</u></a>
-    <a href="http://"><u>prelegenci</u></a>
+    <a href="<?= BASE_URL ?>/program"><u>program</u></a>
+    <a href="<?= BASE_URL ?>/prelegenci"><u>prelegenci</u></a>
   </div>
   <div class="rmin"></div>
 
