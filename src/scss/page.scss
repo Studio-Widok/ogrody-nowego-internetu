@@ -2,12 +2,44 @@
 
 .accent {
   @include fontAccent();
-  font-size: 3em;
   text-transform: uppercase;
 }
 
 .sub-accent {
   @include fontSubAccent();
-  font-size: 2em;
   text-transform: uppercase;
+}
+
+.bg-image {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+button,
+.button {
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-align: initial;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+
+  border: 1px solid $contentColor;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: $fontSizeLarge;
+
+  &:hover {
+    transform: rotate(5deg);
+  }
+
+  &:active {
+    transform: rotate(8deg);
+  }
 }

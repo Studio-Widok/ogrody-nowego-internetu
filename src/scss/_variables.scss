@@ -1,8 +1,16 @@
-$contentWidth: 60rem;
+@use "sass:math";
+
+$contentWidth: 80rem;
 // $contentWidthWide: 120rem;
 // $contentWidthText: 45rem;
 $spacing: 3rem;
 // $wrapperSpacing: 3rem;
+
+$bgColor: #fff;
+$contentColor: #000;
+
+$fontRatio: math.div(100rem, $contentWidth);
+$fontSizeLarge: max(min(1.5rem, 1.5vw * $fontRatio), 1.1rem);
 
 $resLarge: 1280px;
 $resTablet: 900px;
