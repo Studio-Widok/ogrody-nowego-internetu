@@ -114,3 +114,14 @@ button,
     transform: rotate(8deg);
   }
 }
+
+.text {
+  font-size: $fontSizeLarge;
+  line-height: 1.5;
+}
+
+.title {
+  @include fontAccent();
+  text-transform: uppercase;
+  font-size: max(min(3rem, 3vw * $fontRatio), 2rem);
+}
