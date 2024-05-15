@@ -3,7 +3,7 @@
   <div class="bg-images">
     <div class="bg-image bg-image--c5">
       <div class="bg-image__cutoff">
-        <img src="<?= BASE_URL ?>/media/image1.jpg" alt="">
+        <img src="<?= BASE_URL ?>/media/image5.jpg" alt="">
       </div>
       <div class="bg-image__caption">
         <div>IMG.#09</div>
@@ -11,7 +11,7 @@
     </div>
     <div class="bg-image bg-image--c2">
       <div class="bg-image__cutoff">
-        <img src="<?= BASE_URL ?>/media/image2.jpg" alt="">
+        <img src="<?= BASE_URL ?>/media/image7.jpg" alt="">
       </div>
       <div class="bg-image__caption">
         <div>IMG.#10</div>
