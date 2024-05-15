@@ -1,6 +1,6 @@
 #front-content {
   position: relative;
-  padding-top: 20rem;
+  padding-top: 25rem;
 
   > .content .text {
     max-width: 31em;
@@ -17,10 +17,10 @@
 
     &:nth-child(1) {
       top: 20rem;
-      right: calc(50% + 40rem);
+      right: calc(50% + 42rem);
       left: auto;
-      width: 20%;
-      height: 30%;
+      width: 18%;
+      height: 25%;
     }
     &:nth-child(2) {
       top: 0%;
@@ -31,7 +31,7 @@
     &:nth-child(3) {
       top: 26rem;
       right: 0;
-      left: calc(50% + 12rem);
+      left: calc(50% + 14rem);
       width: auto;
       max-width: 40rem;
       height: 40%;

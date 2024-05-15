@@ -82,21 +82,15 @@
   }
 
   #front-top-info {
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-    align-self: flex-start;
-    align-items: flex-end;
-    padding: 0 3em 1em 3em;
+    width: 100%;
 
-    .logo-row {
-      gap: 2em;
+    #front-top-info-container {
+      max-width: calc(min(50vw, 60rem) + 25vw - 6rem);
+      display: flex;
+      justify-content: space-between;
+      align-self: flex-start;
       align-items: flex-end;
-    }
-
-    .logo {
-      height: 2.4em;
-      width: auto;
+      padding: 0 0 1em 0;
     }
   }
 }

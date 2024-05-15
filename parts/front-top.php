@@ -49,16 +49,13 @@
     <button class="button">kup bilet</button>
   </div>
 
-  <div id="front-top-info">
-    <div class="logo-row flex">
-      <img src="./media/logo-grupa-robocza.png" alt="grupa robocza"
-        class="logo">
-      <img src="./media/logo-mvu.png" alt="minimum viable utopia" class="logo">
-      <img src="./media/logo-apteka.png" alt="apteka designu" class="logo">
+  <div id="front-top-info" class="content content--wide column">
+    <div id="front-top-info-container">
+      <?php get_part('logo-row') ?>
+      <div class="info-text uppercase">15.06.2024<br>
+        apteka designu<br>
+        kopernika 19a<br>
+        KRAKÓW</div>
     </div>
-    <div class="info-text uppercase">15.06.2024<br>
-      apteka designu<br>
-      kopernika 19a<br>
-      KRAKÓW</div>
   </div>
 </div>

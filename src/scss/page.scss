@@ -28,6 +28,7 @@
     position: absolute;
     inset: 0;
     overflow: hidden;
+    opacity: 0.5;
   }
 
   &__caption {
@@ -121,7 +122,7 @@ button,
 }
 
 .title {
-  @include fontAccent();
+  // @include fontAccent();
   text-transform: uppercase;
   font-size: max(min(3rem, 3vw * $fontRatio), 2rem);
 }

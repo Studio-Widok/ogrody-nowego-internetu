@@ -209,9 +209,9 @@ h6 {
   max-width: $contentWidth;
   margin: 0 auto;
 
-  // &--wide {
-  //   max-width: $contentWidthWide;
-  // }
+  &--wide {
+    max-width: $contentWidthWide;
+  }
 
   // &--slim {
   //   max-width: $contentWidthSlim;
