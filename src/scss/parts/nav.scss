@@ -3,6 +3,7 @@ nav {
   top: 2%;
   left: 0;
   width: 100%;
+  z-index: 21;
 
   #nav-wrap {
     display: flex;
@@ -23,6 +24,18 @@ nav {
     text-transform: uppercase;
 
     .nav-link {
+      &:not(&--current) {
+        cursor: pointer;
+
+        &:hover {
+          transform: rotate(5deg);
+        }
+
+        &:active {
+          transform: rotate(8deg);
+        }
+      }
+
       &--current {
         font-weight: 700;
       }
