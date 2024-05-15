@@ -1,0 +1,63 @@
+#program-plan {
+  .subtitle {
+    margin-top: 3em;
+  }
+
+  .list-item {
+    margin: 0 0 3em 0;
+
+    .list-title {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .list-more {
+      font-size: inherit;
+      display: flex;
+      margin: 0 0 0 3em;
+      padding: 0.3em 1.5em;
+
+      .list-arrow {
+        margin-left: 0.3em;
+        transform: rotate(90deg);
+        transition: 0.2s;
+      }
+
+      &:hover .list-arrow {
+        transform: rotate(100deg);
+      }
+    }
+
+    &--expanded {
+      .list-more {
+        .list-arrow {
+          transform: rotate(0deg);
+        }
+
+        &:hover .list-arrow {
+          transform: rotate(-10deg);
+        }
+      }
+    }
+
+    .list-description {
+      height: 0;
+      max-width: 41em;
+      overflow: hidden;
+      transition: 0.3s;
+
+      p:first-child {
+        margin-top: 0.5em;
+      }
+
+      p:last-child {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

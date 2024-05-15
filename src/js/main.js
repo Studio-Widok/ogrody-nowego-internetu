@@ -1,12 +1,24 @@
-
-// import 'lazysizes';
-// import smoothscroll from 'smoothscroll-polyfill';
+import 'lazysizes';
+import $ from 'cash-dom';
 
 import 'widok';
 
-// smoothscroll.polyfill();
-
-// document.addEventListener('lazybeforeunveil', event => {
-//   const bg = event.target.getAttribute('data-bg');
-//   if (bg) event.target.style.backgroundImage = 'url(' + bg + ')';
-// });
+let timeout;
+$('.list-more').on('click', event => {
+  const element = $(event.currentTarget);
+  const parentElement = element.parents('.list-item');
+  const descriptionElement = parentElement.find('.list-description');
+  if (parentElement.hasClass('list-item--expanded')) {
+    clearTimeout(timeout);
+    descriptionElement.css({ height: descriptionElement[0].scrollHeight });
+    timeout = setTimeout(() => {
+      descriptionElement.css({ height: 0 });
+    }, 0);
+  } else {
+    descriptionElement.css({ height: descriptionElement[0].scrollHeight });
+    timeout = setTimeout(() => {
+      descriptionElement.css({ height: 'auto' });
+    }, 500);
+  }
+  parentElement.toggleClass('list-item--expanded');
+});
