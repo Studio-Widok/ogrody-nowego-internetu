@@ -34,6 +34,7 @@
       height: 100%;
       object-fit: cover;
       object-position: center;
+      border-radius: 1.5em;
     }
 
     &:nth-child(1) {
@@ -94,19 +95,8 @@
     }
 
     .logo {
+      height: 2.4em;
       width: auto;
-
-      &:nth-child(1) {
-        height: 4em;
-      }
-
-      &:nth-child(2) {
-        height: 2.2em;
-      }
-
-      &:nth-child(3) {
-        height: 2.4em;
-      }
     }
   }
 }

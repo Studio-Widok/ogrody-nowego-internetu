@@ -51,10 +51,10 @@
 
   <div id="front-top-info">
     <div class="logo-row flex">
-      <img src="./media/logo-apteka.png" alt="apteka designu" class="logo">
-      <img src="./media/logo-mvu.png" alt="minimum viable utopia" class="logo">
       <img src="./media/logo-grupa-robocza.png" alt="grupa robocza"
         class="logo">
+      <img src="./media/logo-mvu.png" alt="minimum viable utopia" class="logo">
+      <img src="./media/logo-apteka.png" alt="apteka designu" class="logo">
     </div>
     <div class="info-text uppercase">15.06.2024<br>
       apteka designu<br>
