@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /ogrody-nowego-internetu/
+RewriteRule ^program/?$ ./pages/program.php [L]
+RewriteRule ^prelegenci/?$ ./pages/prelegenci.php [L]
+RewriteRule ^kontakt/?$ ./pages/kontakt.php [L]

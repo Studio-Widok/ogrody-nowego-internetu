@@ -21,5 +21,11 @@ nav {
     gap: 2em;
     align-items: center;
     text-transform: uppercase;
+
+    .nav-link {
+      &--current {
+        font-weight: 700;
+      }
+    }
   }
 }

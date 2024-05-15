@@ -1,12 +1,14 @@
 <?php
 define("IS_SSL_ENABLED", isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on');
 define(
-  "BASE_URL", (IS_SSL_ENABLED ? "https" : "http") . "://" .
+  "BASE_URL",
+  (IS_SSL_ENABLED ? "https" : "http") . "://" .
   $_SERVER['HTTP_HOST'] .
   str_replace(realpath($_SERVER['DOCUMENT_ROOT']), '', realpath(__DIR__))
 );
 define(
-  "CURRENT_URL", (IS_SSL_ENABLED ? "https" : "http") . "://" .
+  "CURRENT_URL",
+  (IS_SSL_ENABLED ? "https" : "http") . "://" .
   $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
 );
 
@@ -30,8 +32,8 @@ $description = "";
   <!-- <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" /> -->
   <meta name="color-scheme" content="light only">
-  <link rel="stylesheet" href="./dist/main.css" />
+  <link rel="stylesheet" href="<?= BASE_URL ?>/dist/main.css" />
 </head>
 
 <body>
-  <?php include 'include/partials.php'; ?>
+  <?php include __DIR__ . '/include/partials.php'; ?>

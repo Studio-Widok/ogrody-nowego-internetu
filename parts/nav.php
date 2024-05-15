@@ -1,5 +1,6 @@
 <?php
 $showLogo = $showLogo ?? true;
+$current  = $current ?? '';
 ?>
 
 <nav>
@@ -11,9 +12,12 @@ $showLogo = $showLogo ?? true;
       <?php } ?>
     </div>
     <div id="nav-links">
-      <div class="nav-link">program</div>
-      <div class="nav-link">goście</div>
-      <div class="nav-link">kontakt</div>
+      <a
+        class="nav-link <?= $current === 'program' ? 'nav-link--current' : '' ?>">program</a>
+      <a
+        class="nav-link <?= $current === 'prelegenci' ? 'nav-link--current' : '' ?>">prelegenci</a>
+      <a
+        class="nav-link <?= $current === 'kontakt' ? 'nav-link--current' : '' ?>">kontakt</a>
     </div>
   </div>
 </nav>
