@@ -4,6 +4,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 21;
+  pointer-events: none;
 
   #nav-wrap {
     display: flex;
@@ -15,6 +16,7 @@ nav {
     min-width: 18%;
     font-size: max(min(3rem, 3vw * $fontRatio), 2rem);
     margin-left: -0.08em;
+    pointer-events: all;
   }
 
   #nav-links {
@@ -22,6 +24,7 @@ nav {
     gap: 2em;
     align-items: center;
     text-transform: uppercase;
+    pointer-events: all;
 
     .nav-link {
       &:not(&--current) {

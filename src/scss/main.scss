@@ -8,9 +8,9 @@ body {
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
-// * {
-//   box-shadow: 0 0 0 1px #f32;
-// }
+* {
+  box-shadow: 0 0 0 1px #f32;
+}
 
 /* general */
 @import "base";
@@ -23,3 +23,6 @@ body {
 @import "parts/footer";
 @import "parts/front-top";
 @import "parts/front-content";
+
+/* pages */
+@import "parts/program";
