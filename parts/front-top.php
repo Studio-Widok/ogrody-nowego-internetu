@@ -34,6 +34,9 @@
     </div>
   </div>
 
+  <img src="./media/top1.png" alt="" id="top1">
+  <img src="./media/top2.png" alt="" id="top2">
+
   <div></div>
 
   <img src="./media/logo-eden.svg" alt="eden learning garden" id="eden">

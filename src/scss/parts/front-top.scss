@@ -1,12 +1,18 @@
 @use "../variables" as *;
 
 #front-top {
+  position: relative;
   width: 100%;
   min-height: calc(var(--vh, 1vh) * 100);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+
+  #front-center {
+    margin: 6em 0;
+  }
 
   #front-logo {
     text-align: center;
@@ -18,7 +24,7 @@
     position: absolute;
     width: 17%;
     top: 2%;
-    right: 0;
+    right: -0.4%;
   }
 
   .bg-image {
@@ -54,6 +60,24 @@
       width: 19%;
       height: 26%;
     }
+  }
+
+  #top1 {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 10%;
+    height: auto;
+    pointer-events: none;
+  }
+
+  #top2 {
+    position: absolute;
+    top: 70%;
+    left: 57%;
+    width: 7%;
+    height: auto;
+    pointer-events: none;
   }
 
   #front-top-info {

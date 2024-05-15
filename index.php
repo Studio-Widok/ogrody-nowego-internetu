@@ -1,6 +1,7 @@
 <?php include 'header.php'; ?>
 <?php get_part('nav', ['showLogo' => false]); ?>
 <?php get_part('front-top'); ?>
+<div class="rsep"></div>
 <div class="content column">
   <div class="accent">ogrody nowego internetu</div>
   <div class="sub-accent">platformowe ogrody</div>
