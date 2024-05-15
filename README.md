@@ -6,7 +6,7 @@
 - [ ] front
   - [ ] top
     - [x] center
-    - [ ] background
+    - [x] background
     - [ ] bottom
   - [ ] images
   - [ ] text

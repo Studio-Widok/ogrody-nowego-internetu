@@ -14,6 +14,68 @@
   position: absolute;
   inset: 0;
   z-index: -1;
+
+  &__cutoff {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+
+  &__caption {
+    @include fontSubAccent();
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1.5em;
+    margin: 0.3em 0 0 0;
+    font-size: 0.75em;
+    white-space: nowrap;
+
+    div {
+      width: fit-content;
+    }
+  }
+
+  &--c1 &__caption {
+    div {
+      margin-left: auto;
+    }
+  }
+
+  &--c2 &__caption {
+    display: flex;
+    align-items: flex-end;
+    top: 0;
+    left: 100%;
+    width: 1.5em;
+    height: 100%;
+    margin: 0 0 0 0.3em;
+
+    div {
+      transform-origin: 1.2em 100%;
+      transform: rotate(-90deg) translate(1.5em, 0);
+    }
+  }
+
+  &--c3 &__caption {
+    top: 0;
+    left: 100%;
+    width: 1.5em;
+    height: 100%;
+    margin: 0 0 0 0.3em;
+
+    div {
+      transform-origin: 1.2em 100%;
+      transform: translate(0, -2em) rotate(-90deg) translate(-100%, 0);
+    }
+  }
+
+  &--c5 &__caption {
+    top: auto;
+    bottom: 100%;
+    margin: 0 0 -0.3em 0;
+  }
 }
 
 button,

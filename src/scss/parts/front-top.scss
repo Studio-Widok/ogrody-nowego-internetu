@@ -18,4 +18,39 @@
       font-feature-settings: "ss02" 1;
     }
   }
+
+  .bg-image {
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &:nth-child(1) {
+      top: 2%;
+      left: -4%;
+      width: 20%;
+      height: 30%;
+    }
+    &:nth-child(2) {
+      top: 43%;
+      left: 3%;
+      width: 35%;
+      height: 38%;
+    }
+    &:nth-child(3) {
+      top: 60%;
+      left: 75%;
+      width: 22%;
+      height: 40%;
+    }
+    &:nth-child(4) {
+      top: 27%;
+      left: 76%;
+      width: 19%;
+      height: 26%;
+    }
+  }
 }
