@@ -12,6 +12,10 @@
 
   #front-center {
     margin: 6em 0;
+
+    @media (max-width: $resLarge) {
+      margin: 3em 0 9em 0;
+    }
   }
 
   #front-logo {
@@ -94,11 +98,18 @@
 
       .info-text {
         position: relative;
+        font-size: 1.41em;
 
         #top3 {
           width: 60%;
           bottom: 120%;
           left: 0;
+        }
+
+        @media (max-width: $resLarge) {
+          position: absolute;
+          bottom: 3em;
+          right: 30%;
         }
       }
     }

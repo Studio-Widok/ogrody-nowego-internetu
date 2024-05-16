@@ -36,6 +36,15 @@
 
   <div class="r"></div>
 
-  <div class="content content--wide column"><?php get_part('logo-row') ?></div>
+  <div
+    class="content content--wide column flex flex-justify-space-between flex-align-end">
+    <?php get_part('logo-row') ?>
+    <div id="footer-copyright" class="uppercase text-right">
+      <p>copyright grupa robocza 2024®<br>
+        <a href="" target="_blank" class="fancy-link">regulamin</a><br>
+        <a href="" target="_blank" class="fancy-link">polityka prywatności</a>
+      </p>
+    </div>
+  </div>
   <div class="r"></div>
 </footer>

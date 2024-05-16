@@ -21,8 +21,8 @@
       <p class="sub-accent">10:20 &ndash; Ekologia techniki i etyka
         projektowania
         na
-        rzecz nowej sieci<br><u>prof. Michał Krzykawski (Uniwersytet Śląski,
-          Fundacja współtwórcza)</u></p>
+        rzecz nowej sieci<br><span>prof. Michał Krzykawski (Uniwersytet Śląski,
+          Fundacja współtwórcza)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
       </button>
     </div>
@@ -43,7 +43,7 @@
   <div class="list-item">
     <div class="list-title">
       <p class="sub-accent">10:40 &ndash; Rzeczywistość cyfrowa po
-        skończoności<br><u>Piotrek Butlewski (Flying Bisons)</u></p>
+        skończoności<br><span>Piotrek Butlewski (Flying Bisons)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">Nie jesteśmy w stanie wprost określić, jak
@@ -56,9 +56,9 @@
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">11:00 &ndash; Cyfrowe Monarchie (-‿◦☀)<br><u>Kat
+      <p class="sub-accent">11:00 &ndash; Cyfrowe Monarchie (-‿◦☀)<br><span>Kat
           Zavada
-          (ASP Kraków)</u></p>
+          (ASP Kraków)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">Na styku dwóch kryzysów, kryzysu demokracji i
@@ -76,9 +76,9 @@
   <div class="list-item">
     <div class="list-title">
       <p class="sub-accent">11:20 &ndash; Dyskusja: umarł internet, niech żyje
-        internet<br><u>Michał Krzykawski, Piotrek Butlewski, Kat Zavada, Kuba
+        internet<br><span>Michał Krzykawski, Piotrek Butlewski, Kat Zavada, Kuba
           Kulesza
-          (host)</u></p>
+          (host)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">Lorem ipsum dolor sit amet consectetur
@@ -99,7 +99,7 @@
     <div class="list-title">
       <p class="sub-accent">12:30 &ndash; Europejski przepis na media
         społecznościowe: czy da się "smacznie, ale
-        bez cukru"?<br><u>Dorota Głowacka (Panoptykon)</u></p>
+        bez cukru"?<br><span>Dorota Głowacka (Panoptykon)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">
@@ -131,8 +131,8 @@
   <div class="list-item">
     <div class="list-title">
       <p class="sub-accent">13:00 &ndash; Jak projektować dla
-        dialogu?<br><u>Kasia
-          Drożdżal, Paweł Nowak (WUD Silesia)</u></p>
+        dialogu?<br><span>Kasia
+          Drożdżal, Paweł Nowak (WUD Silesia)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">
@@ -158,9 +158,9 @@
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">13:30 &ndash; HAFNAR HAUS SLOT<br><u>Arnar
+      <p class="sub-accent">13:30 &ndash; HAFNAR HAUS SLOT<br><span>Arnar
           Sigurðsson,
-          Anna Marjankowska (Hafnar Haus)</u></p>
+          Anna Marjankowska (Hafnar Haus)</span></p>
       <!-- <button class="list-more">opis <div class="list-arrow">↗</div> -->
     </div>
     <!-- <div class="list-description"></div> -->
@@ -170,8 +170,9 @@
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">15:00 &ndash; Miękki uścisk cybernetyki<br><u>Kuba
-          Kulesza (Agrocybernetyka)</u></p>
+      <p class="sub-accent">15:00 &ndash; Miękki uścisk
+        cybernetyki<br><span>Kuba
+          Kulesza (Agrocybernetyka)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">Opowiem, jak mnie ściska, kiedy się schylam
@@ -183,7 +184,8 @@
       <p class="sub-accent">15:30 &ndash; AI: Przewodnik po przyszłych rajach i
         piekłach - Jak sztuczna inteligencja kształtuje nasze wizje idealnego i
         przerażającego świata, czyli o wizjach modernizacji w kontekście rozwoju
-        technologii<br><u>Marcin Nowicki, Katarzyna Nestorowicz (NOVIKI)</u></p>
+        technologii<br><span>Marcin Nowicki, Katarzyna Nestorowicz
+          (NOVIKI)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">
@@ -202,7 +204,7 @@
     <div class="list-title">
       <p class="sub-accent">16:00 &ndash; La mort de nom de patr - czyli śmierć
         ojca
-        AI<br><u>Agnieszka Zgud (Grupa Robocza)</u></p>
+        AI<br><span>Agnieszka Zgud (Grupa Robocza)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">
@@ -212,12 +214,12 @@
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">17:00 &ndash; Zakończenie konferencji</u></p>
+      <p class="sub-accent">17:00 &ndash; Zakończenie konferencji</span></p>
     </div>
   </div>
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">18:00 &ndash; Afterparty</u></p>
+      <p class="sub-accent">18:00 &ndash; Afterparty</span></p>
     </div>
   </div>
 

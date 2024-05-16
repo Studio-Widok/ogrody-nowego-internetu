@@ -5,4 +5,6 @@
     class="logo">
   <img src="<?= BASE_URL ?>/media/logo-apteka.png" alt="apteka designu"
     class="logo">
+  <img src="<?= BASE_URL ?>/media/logo-formy.png"
+    alt="patronat medialny: formy.xyz" class="logo">
 </div>

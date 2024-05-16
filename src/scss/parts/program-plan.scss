@@ -14,6 +14,11 @@
 
       p {
         margin: 0;
+
+        span {
+          @include fontDefault();
+          text-transform: none;
+        }
       }
     }
 
