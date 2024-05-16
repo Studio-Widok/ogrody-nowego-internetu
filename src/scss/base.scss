@@ -10,10 +10,6 @@ a {
   text-decoration: none;
 }
 
-.clear {
-  clear: both;
-}
-
 .rsep {
   height: 6rem;
 }
@@ -30,22 +26,6 @@ a {
   height: 0.75rem;
 }
 
-.rel {
-  position: relative;
-}
-
-.abs {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.no-overflow {
-  overflow: hidden;
-}
-
 h1,
 h2,
 h3,
@@ -53,12 +33,6 @@ h4,
 h5,
 h6 {
   font-weight: inherit;
-}
-
-.full {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .text-justify {
@@ -129,81 +103,17 @@ h6 {
   align-items: stretch;
 }
 
-// .col2 {
-//   width: 50%;
-// }
-// .col3 {
-//   width: 33.3333%;
-// }
-// .col3-2 {
-//   width: 66.6667%;
-// }
-// .col4 {
-//   width: 25%;
-// }
-// .col4-3 {
-//   width: 75%;
-// }
-// .col5 {
-//   width: 20%;
-// }
-// .col5-2 {
-//   width: 40%;
-// }
-// .col5-3 {
-//   width: 60%;
-// }
-// .col5-4 {
-//   width: 80%;
-// }
-// .col6 {
-//   width: 16.6667%;
-// }
-// .col6-5 {
-//   width: 83.3333%;
-// }
-
 .column {
   padding: 0 $spacing;
 }
 
-.column-left {
-  padding-left: $spacing;
-}
-
-.column-right {
-  padding-right: $spacing;
-}
-
-.column-half {
-  padding: 0 math.div($spacing, 2);
-}
-
-.column-left-half {
-  padding-left: math.div($spacing, 2);
-}
-
-.column-right-half {
-  padding-right: math.div($spacing, 2);
-}
-
-.column-inner,
-.column-inner-growing {
+.column-inner {
   padding: 0 math.div($spacing, 3);
 }
 
-.column-outer,
-.column-outer-growing {
+.column-outer {
   padding: 0 math.div($spacing, 3) * 2;
 }
-
-.column-double {
-  padding: 0 $spacing * 2;
-}
-
-// .column-wrapper {
-//   padding: 0 $wrapperSpacing;
-// }
 
 .content {
   max-width: $contentWidth;
@@ -212,10 +122,6 @@ h6 {
   &--wide {
     max-width: $contentWidthWide;
   }
-
-  // &--slim {
-  //   max-width: $contentWidthSlim;
-  // }
 }
 
 .text {
@@ -229,16 +135,6 @@ h6 {
     &:last-child {
       margin-top: 0;
     }
-  }
-}
-
-@media (min-width: $resLarge) {
-  .column-inner-growing {
-    padding: 0 $spacing;
-  }
-
-  .column-outer-growing {
-    padding: 0;
   }
 }
 
@@ -261,38 +157,12 @@ h6 {
     padding: 0 2rem;
   }
 
-  .column-left {
-    padding-left: 2rem;
-  }
-
-  .column-right {
-    padding-right: 2rem;
-  }
-
-  .column-half {
-    padding: 0 1rem;
-  }
-
-  .column-left-half {
-    padding-left: 1rem;
-  }
-
-  .column-right-half {
-    padding-right: 1rem;
-  }
-
-  .column-inner,
-  .column-inner-growing {
+  .column-inner {
     padding: 0 0.6667rem;
   }
 
-  .column-outer,
-  .column-outer-growing {
+  .column-outer {
     padding: 0 1.3333rem;
-  }
-
-  .column-double {
-    padding: 0 4rem;
   }
 }
 

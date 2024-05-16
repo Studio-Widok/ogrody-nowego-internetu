@@ -2,6 +2,7 @@
 <?php get_part('nav', ['current' => 'prelegenci']); ?>
 <div id="prelegenci">
   <div class="rsep"></div>
+  <div class="rsep"></div>
   <div class="content column">
     <div class="title accent">prelegenci</div>
     <div class="rmin"></div>

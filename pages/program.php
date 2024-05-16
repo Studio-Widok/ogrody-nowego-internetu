@@ -1,6 +1,7 @@
 <?php include '../header.php'; ?>
 <?php get_part('nav', ['current' => 'program']); ?>
 <div class="rsep"></div>
+<div class="rsep"></div>
 <div class="content" id="program-top">
   <div id="program-top-title" class="column">
     <div class="r"></div>

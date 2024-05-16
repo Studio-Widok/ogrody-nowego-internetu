@@ -19,10 +19,13 @@
     </div>
   </div>
 
-  <a href="http://" target="_blank" rel="noopener noreferrer"><button
-      class="button">kup bilet</button></a>
+  <div class="flex flex-justify-center">
+    <a href="http://" target="_blank" rel="noopener noreferrer" class="button">
+      <div class="">kup bilet</div>
+    </a>
+  </div>
   <div class="rmin"></div>
-  <div class="text-center uppercase">
+  <div class="text-center uppercase" id="footer-links">
     <a href="<?= BASE_URL ?>/program"><u>program</u></a>
     <a href="<?= BASE_URL ?>/prelegenci"><u>prelegenci</u></a>
   </div>

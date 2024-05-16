@@ -24,4 +24,18 @@ footer {
       height: 87%;
     }
   }
+
+  #footer-links {
+    a {
+      display: inline-block;
+
+      &:hover {
+        transform: rotate(5deg);
+      }
+
+      &:active {
+        transform: rotate(8deg);
+      }
+    }
+  }
 }

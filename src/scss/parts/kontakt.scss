@@ -1,0 +1,8 @@
+@use "../variables" as *;
+
+#kontakt {
+  .text {
+    max-width: $contentWidthText;
+    margin: 0 auto;
+  }
+}
