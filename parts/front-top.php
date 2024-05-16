@@ -36,6 +36,7 @@
 
   <img src="./media/top1.png" alt="" id="top1">
   <img src="./media/top2.png" alt="" id="top2">
+  <img src="./media/top4.png" alt="" id="top4">
 
   <div></div>
 
@@ -52,10 +53,13 @@
   <div id="front-top-info" class="content content--wide column">
     <div id="front-top-info-container">
       <?php get_part('logo-row') ?>
-      <div class="info-text uppercase">15.06.2024<br>
+      <div class="info-text uppercase">
+        15.06.2024<br>
         apteka designu<br>
         kopernika 19a<br>
-        KRAKÓW</div>
+        KRAKÓW
+        <img src="./media/top3.png" alt="" id="top3">
+      </div>
     </div>
   </div>
 </div>

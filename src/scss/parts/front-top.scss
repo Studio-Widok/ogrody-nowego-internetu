@@ -54,22 +54,31 @@
     }
   }
 
-  #top1 {
+  #top1,
+  #top2,
+  #top3,
+  #top4 {
     position: absolute;
-    top: 20%;
-    left: 70%;
-    width: 10%;
     height: auto;
     pointer-events: none;
   }
 
+  #top1 {
+    top: 34%;
+    left: 22%;
+    width: max(7%, 7rem);
+  }
+
   #top2 {
-    position: absolute;
-    top: 70%;
-    left: 57%;
-    width: 7%;
-    height: auto;
-    pointer-events: none;
+    top: 30%;
+    left: 72%;
+    width: max(5%, 5rem);
+  }
+
+  #top4 {
+    top: 79%;
+    left: 4%;
+    width: max(4%, 4rem);
   }
 
   #front-top-info {
@@ -82,6 +91,16 @@
       align-self: flex-start;
       align-items: flex-end;
       padding: 0 0 1em 0;
+
+      .info-text {
+        position: relative;
+
+        #top3 {
+          width: 60%;
+          bottom: 120%;
+          left: 0;
+        }
+      }
     }
   }
 }
