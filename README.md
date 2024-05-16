@@ -1,4 +1,5 @@
-[figma](https://www.figma.com/design/pCSP39Jy2U1znOhgDJ6PJ5/Eden-2024-www?node-id=0-1&t=3b5dXbIMdRNcQ5iY-0)
+- [preview](https://widok.studio/ogrody-nowego-internetu/)
+- [figma](https://www.figma.com/design/pCSP39Jy2U1znOhgDJ6PJ5/Eden-2024-www?node-id=0-1&t=3b5dXbIMdRNcQ5iY-0)
 
 ## todo (24/31)
 - [x] navigation
