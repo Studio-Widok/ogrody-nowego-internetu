@@ -10,9 +10,10 @@
     top: 3rem;
     left: 7rem;
     display: block;
-    width: 70%;
+    width: 60%;
     height: auto;
     z-index: -1;
+    border-radius: 2em;
   }
 
   @media (max-width: $resPhone) {

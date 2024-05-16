@@ -54,9 +54,8 @@ footer {
   }
 
   @media (max-width: $resPhone) {
-    .logo-row {
-      flex-direction: column;
-      align-items: center;
+    #footer-copyright {
+      margin-top: 2em;
     }
   }
 }

@@ -37,7 +37,7 @@
   <div class="r"></div>
 
   <div
-    class="content content--wide column flex flex-justify-space-between flex-align-end">
+    class="content content--wide column flex flex-justify-space-between flex-align-end flex-wrap">
     <?php get_part('logo-row') ?>
     <div id="footer-copyright" class="uppercase text-right">
       <p>copyright grupa robocza 2024®<br>

@@ -6,4 +6,8 @@
     height: 2.4em;
     width: auto;
   }
+
+  @media (max-width: $resPhone) {
+    flex-wrap: wrap;
+  }
 }

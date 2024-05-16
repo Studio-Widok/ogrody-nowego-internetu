@@ -11,7 +11,7 @@
     </div>
     <div class="bg-image bg-image--c5">
       <div class="bg-image__cutoff">
-        <img src="./media/image8.jpg" alt="">
+        <img src="./media/image4.jpg" alt="">
       </div>
       <div class="bg-image__caption">
         <div>IMG.#07</div>
