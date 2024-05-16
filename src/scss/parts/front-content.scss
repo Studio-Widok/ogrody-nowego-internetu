@@ -1,3 +1,5 @@
+@use "../variables" as *;
+
 #front-content {
   position: relative;
   padding-top: 25rem;
@@ -34,6 +36,14 @@
       left: auto;
       width: min(20rem, 25%);
       height: 26%;
+    }
+  }
+
+  @media (max-width: $resTablet) {
+    padding-top: 6rem;
+
+    .bg-images {
+      display: none;
     }
   }
 }
