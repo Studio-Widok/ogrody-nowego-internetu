@@ -1,3 +1,5 @@
+@use "../variables" as *;
+
 footer {
   position: relative;
 
@@ -28,6 +30,29 @@ footer {
       &:active {
         transform: rotate(8deg);
       }
+    }
+  }
+
+  @media (max-width: $resTablet) {
+    .bg-images {
+      display: none;
+    }
+
+    .title {
+      font-size: 12.1vw;
+      margin: 0 -2vw;
+      width: 104vw;
+    }
+
+    .logo-row {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: $resTablet) {
+    .logo-row {
+      flex-direction: column;
+      align-items: center;
     }
   }
 }

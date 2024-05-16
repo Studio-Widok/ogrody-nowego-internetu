@@ -11,8 +11,8 @@ $contentColor: #000;
 $fontRatio: math.div(100rem, $contentWidth);
 $fontSizeLarge: max(min(1.5rem, 1.5vw * $fontRatio), 1.1rem);
 
-$resLarge: 1280px;
-$resTablet: 900px;
+$resLarge: 1050px;
+$resTablet: 768px;
 $resPhone: 450px;
 
 @font-face {

@@ -1,6 +1,6 @@
 [figma](https://www.figma.com/design/pCSP39Jy2U1znOhgDJ6PJ5/Eden-2024-www?node-id=0-1&t=3b5dXbIMdRNcQ5iY-0)
 
-## todo (21/27)
+## todo (23/30)
 - [x] navigation
 - [x] footer
 - [x] front
@@ -22,9 +22,12 @@
   - [x] text
   - [x] image
 - [ ] responsiveness
-  - [ ] weird images
-  - [ ] navigation
-  - [ ] texts
+  - [x] navigation
+  - [x] footer
+  - [ ] front top
+  - [ ] front content
+  - [ ] prelegenci
+  - [ ] program
 - [ ] metadata
 - [x] routing
 - [ ] lazy loading

@@ -44,4 +44,16 @@ nav {
       }
     }
   }
+
+  @media (max-width: $resPhone) {
+    #nav-logo {
+      position: absolute;
+      top: 12rem;
+    }
+
+    #nav-links {
+      width: 100%;
+      justify-content: center;
+    }
+  }
 }
