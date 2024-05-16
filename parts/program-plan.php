@@ -4,7 +4,7 @@
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">08:30 &ndash; Otwarcie</p>
+      <p class="sub-accent">09:30 &ndash; Otwarcie bram edenu</p>
     </div>
   </div>
 
@@ -19,10 +19,8 @@
   <div class="list-item">
     <div class="list-title">
       <p class="sub-accent">10:20 &ndash; Ekologia techniki i etyka
-        projektowania
-        na
-        rzecz nowej sieci<br><span>prof. Michał Krzykawski (Uniwersytet Śląski,
-          Fundacja współtwórcza)</span></p>
+        projektowania na rzecz nowej sieci<br><span>prof. Michał Krzykawski
+          (Uniwersytet Śląski, Pracownia Współtwórcza)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
       </button>
     </div>
@@ -43,22 +41,25 @@
   <div class="list-item">
     <div class="list-title">
       <p class="sub-accent">10:40 &ndash; Rzeczywistość cyfrowa po
-        skończoności<br><span>Piotrek Butlewski (Flying Bisons)</span></p>
+        skończoności<br><span>Piotr Butlewski (Flying Bisons)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
-    <div class="list-description">Nie jesteśmy w stanie wprost określić, jak
-      może wyglądać internet po końcu świata i jakie formy cyfrowych bytów
-      przetrwają stan chaosu. Istnieją oczywiście pewne przesłanki, na podstawie
-      których możemy spekulować. Opierają się one na trzech pojęciach rodem z
-      nowego internetu: Lore, Protokół i Vibe. I to właśnie na nich się skupię w
-      trakcie swojego wystąpienia.</div>
+    <div class="list-description">
+      <p>Nie jesteśmy w stanie wprost określić, jak może wyglądać internet po
+        końcu świata i jakie formy cyfrowych bytów przetrwają stan chaosu.
+        Istnieją oczywiście pewne przesłanki, na podstawie których możemy
+        spekulować. Opierają się one na trzech pojęciach rodem z nowego
+        internetu: Lore, Protokół i Vibe. Przy ich użyciu zwiedzimy sposoby
+        opowiadania historii które cechuje rozproszenie, nielinearność i brak
+        narratora. Bo, być może, formy tego typu przetrwają czas w którym
+        indywidualna wypowiedź przestaje wystarczać.</p>
+    </div>
   </div>
 
   <div class="list-item">
     <div class="list-title">
       <p class="sub-accent">11:00 &ndash; Cyfrowe Monarchie (-‿◦☀)<br><span>Kat
-          Zavada
-          (ASP Kraków)</span></p>
+          Zavada (ASP Kraków)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">Na styku dwóch kryzysów, kryzysu demokracji i
@@ -76,15 +77,9 @@
   <div class="list-item">
     <div class="list-title">
       <p class="sub-accent">11:20 &ndash; Dyskusja: umarł internet, niech żyje
-        internet<br><span>Michał Krzykawski, Piotrek Butlewski, Kat Zavada, Kuba
-          Kulesza
-          (host)</span></p>
-      <button class="list-more">opis <div class="list-arrow">↗</div>
+        internet<br><span>Michał Krzykawski, Piotr Butlewski, Kat Zavada, Kuba
+          Kulesza (host)</span></p>
     </div>
-    <div class="list-description">Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Quibusdam ab odio soluta ducimus provident dolore,
-      repudiandae officia magni dolorem aspernatur corporis odit voluptate iste
-      consequatur tenetur, error optio porro quod.</div>
   </div>
 
   <div class="list-item">
@@ -104,16 +99,15 @@
     </div>
     <div class="list-description">
       <p>Weszliśmy na platformy społecznościowe zwabieni obietnicą wspólnoty,
-        ale
-        też darmowego, spersonalizowanego "feedu". Ta obietnica była tylko
-        wabikiem, od początku w interesiepłacących klientów platform
+        ale też darmowego, spersonalizowanego "feedu". Ta obietnica była tylko
+        wabikiem, od początku w interesie płacących klientów platform
         społecznościowych było coś innego: przykleić nas do ekranu.</p>
       <p>W tym modelu odbiorca treści nie jest klientem, który może wpływać na
         serwowane mu treści. Interfejsy i algorytmy mediów społecznościowych są
         zaprojektowane tak, żeby stymulować nasz nasz cykl dopaminowy i
         uzależniać. Dokładnie tak jak cukier. Albo nikotyna. Dzieje się to
-        kosztem nie tylko naszego dobrostanu (fizycznego i
-        psychicznego), ale również jakości serwowanych nam treści.</p>
+        kosztem nie tylko naszego dobrostanu (fizycznego i psychicznego), ale
+        również jakości serwowanych nam treści.</p>
       <p>Ten problem dostrzegła Unia Europejska. Prawo, które ogranicza
         szkodliwe skutki funkcjonowania wielkich platform internetowych zostało
         przyjęte w 2022 r. i obowiązuje pod nazwą Digital Services Act (DSA).
@@ -131,8 +125,7 @@
   <div class="list-item">
     <div class="list-title">
       <p class="sub-accent">13:00 &ndash; Jak projektować dla
-        dialogu?<br><span>Kasia
-          Drożdżal, Paweł Nowak (WUD Silesia)</span></p>
+        dialogu?<br><span>Kasia Drożdżal, Paweł Nowak (WUD Silesia)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">
@@ -158,24 +151,40 @@
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">13:30 &ndash; HAFNAR HAUS SLOT<br><span>Arnar
-          Sigurðsson,
-          Anna Marjankowska (Hafnar Haus)</span></p>
-      <!-- <button class="list-more">opis <div class="list-arrow">↗</div> -->
+      <p class="sub-accent">13:30 &ndash; For an imperfect Internet: The case
+        for digital services on village scale<br><span>Arnar Sigurðsson, Anna
+          Marjankowska (Hafnar Haus)</span></p>
     </div>
-    <!-- <div class="list-description"></div> -->
+  </div>
+
+  <div class="list-item">
+    <div class="list-title">
+      <p class="sub-accent">14:00 &ndash; Przerwa obiadowa</p>
+    </div>
   </div>
 
   <div class="accent subtitle">sztuczne inteligencje</div>
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">15:00 &ndash; Miękki uścisk
-        cybernetyki<br><span>Kuba
-          Kulesza (Agrocybernetyka)</span></p>
+      <p class="sub-accent">15:00 &ndash; Mitologia i praktyka AI: Zabicie ojca,
+        powstanie małych modeli<br><span>Agnieszka Zgud (Grupa Robocza)</span>
+      </p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
-    <div class="list-description">Opowiem, jak mnie ściska, kiedy się schylam
+    <div class="list-description">
+      <p>Polityka i mitologia nowej techniki przedstawiają rozwój AI jako proces
+        nieuchronny, zdeterminowany i totalny (chociaż na razie zdeterminowani
+        są tylko inwestorzy). Z tej perspektywy wielkie modele są współczesnymi
+        piramidami, które mają demonstrować władzę i zapewnić faraonom
+        nieśmiertelność.</p>
+      <p>A co jeśli inne mitologie i inne technologie są możliwe? Co z małymi
+        leśnymi modelami, albo z modelami, które ukryte pod schodami strzegą
+        domu, żywiąc się słońcem, wodą lub, dlaczego nie, resztkami z obiadu?
+      </p>
+      <p>W swoim wystąpieniu pokażę kilka punktów zwrotnych w powstawaniu
+        technologii i mitów sztucznej inteligencji, postaram się też zarysować
+        możliwości tworzenia własnych małych, autonomicznych modeli.</p>
     </div>
   </div>
 
@@ -202,24 +211,32 @@
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">16:00 &ndash; La mort de nom de patr - czyli śmierć
-        ojca
-        AI<br><span>Agnieszka Zgud (Grupa Robocza)</span></p>
+      <p class="sub-accent">16:00 &ndash; Miękki powrót
+        cybernetyki<br><span>Kuba Kulesza (Agrocybernetyka)</span></p>
       <button class="list-more">opis <div class="list-arrow">↗</div>
     </div>
     <div class="list-description">
-      <p>Jak Dartmouth zabiło Wienera i co z tego dzisiaj mamy.</p>
+      <p>Cybernetyka przeżywa swoją drugą młodość. W dobie rozpędzonej rewolucji
+        sztucznej inteligencji, wydaje się pozostawać bezpieczną ostoją, która
+        daje perspektywę na zrównoważony rozwój technologiczny. Cybernetyka
+        zajmuje się analizą systemów oraz konstrukcją procesów o charakterze
+        cyklicznym, głównie tych zachodzących pomiędzy człowiekiem a maszyną. W
+        swoich założeniach odwołuje się do świata przyrody. Pomaga uchwycić
+        zarówno oczekiwane, jak i nieoczekiwane skutki rozwoju technologii
+        informacyjnych dla planety i jej mieszkańców. Podczas wystąpienia
+        chciałbym zarysować, jak cybernetyka może pomóc nam odnaleźć się w
+        rzeczywistości kształtowanej przez modele AI.</p>
     </div>
   </div>
 
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">17:00 &ndash; Zakończenie konferencji</span></p>
+      <p class="sub-accent">16:30 &ndash; Zakończenie konferencji</span></p>
     </div>
   </div>
   <div class="list-item">
     <div class="list-title">
-      <p class="sub-accent">18:00 &ndash; Afterparty</span></p>
+      <p class="sub-accent">19:00 &ndash; Afterparty (TBA)</span></p>
     </div>
   </div>
 
