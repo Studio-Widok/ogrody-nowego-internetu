@@ -16,7 +16,7 @@
 
   #front-logo {
     text-align: center;
-    font-size: max(min(9rem, 9vw * $fontRatio), 21vw);
+    font-size: max(min(9rem, 9vw * $fontRatio), 3rem);
     margin-bottom: 0.3em;
   }
 
@@ -153,6 +153,10 @@
       position: absolute;
       top: 3rem;
       width: 40%;
+    }
+
+    #front-logo {
+      font-size: max(min(9rem, 9vw * $fontRatio), 21vw);
     }
 
     #front-top-info-container {
