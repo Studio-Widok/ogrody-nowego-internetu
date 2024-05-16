@@ -37,3 +37,4 @@ $description = "";
 
 <body>
   <?php include __DIR__ . '/include/partials.php'; ?>
+  <div class="nop">

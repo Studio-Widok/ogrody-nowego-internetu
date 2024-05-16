@@ -1,8 +1,17 @@
 @use "../variables" as *;
 
 #kontakt {
-  .text {
+  #intro-text {
     max-width: $contentWidthText;
     margin: 0 auto;
+  }
+
+  .bg-image {
+    &:nth-child(1) {
+      top: 34rem;
+      left: calc(50% - min(30rem, 50%) + 26rem);
+      width: min(25rem, 25vw * $fontRatio);
+      height: min(36.5rem, 36.5vw * $fontRatio);
+    }
   }
 }
