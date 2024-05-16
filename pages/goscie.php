@@ -1,10 +1,10 @@
 <?php include '../header.php'; ?>
-<div id="prelegenci">
-  <?php get_part('nav', ['current' => 'prelegenci']); ?>
+<div id="goscie">
+  <?php get_part('nav', ['current' => 'goscie']); ?>
   <div class="rsep"></div>
   <div class="rsep"></div>
   <div class="content column">
-    <div class="title accent">prelegenci</div>
+    <div class="title accent">goście</div>
     <div class="rmin"></div>
     <div class="text text-width">
       <p>Zaprosiliśmy do Apteki Designu osoby na co dzień tworzące

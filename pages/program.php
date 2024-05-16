@@ -3,12 +3,12 @@
   <?php get_part('nav', ['current' => 'program']); ?>
   <div class="rsep"></div>
   <div class="rsep"></div>
-  <div class="content">
-    <div id="program-top-title" class="column">
+  <div class="content column">
+    <div id="program-top-title">
       <div class="r"></div>
       <div class="title accent">program</div>
     </div>
-    <img src="./media/image6.jpg" alt="" id="program-top-img">
+    <img src="./media/apteka.jpg" alt="" id="program-top-img">
   </div>
   <div class="r"></div>
   <?php get_part('program-plan') ?>

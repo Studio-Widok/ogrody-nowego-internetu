@@ -11,7 +11,7 @@
     </div>
     <div class="bg-image bg-image--c2">
       <div class="bg-image__cutoff">
-        <img src="<?= BASE_URL ?>/media/image7.jpg" alt="">
+        <img src="<?= BASE_URL ?>/media/CC0-img-126.jpg" alt="">
       </div>
       <div class="bg-image__caption">
         <div>IMG.#10</div>
@@ -27,7 +27,7 @@
   <div class="rmin"></div>
   <div class="text-center uppercase" id="footer-links">
     <a href="<?= BASE_URL ?>/program"><u>program</u></a>
-    <a href="<?= BASE_URL ?>/prelegenci"><u>prelegenci</u></a>
+    <a href="<?= BASE_URL ?>/goscie"><u>goście</u></a>
   </div>
   <div class="rmin"></div>
 

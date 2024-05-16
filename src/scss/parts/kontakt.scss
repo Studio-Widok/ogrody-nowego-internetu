@@ -1,11 +1,6 @@
 @use "../variables" as *;
 
 #kontakt {
-  #intro-text {
-    max-width: $contentWidthText;
-    margin: 0 auto;
-  }
-
   .bg-image {
     &:nth-child(1) {
       top: 34rem;

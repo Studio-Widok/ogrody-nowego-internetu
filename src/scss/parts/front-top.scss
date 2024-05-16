@@ -28,10 +28,6 @@
   }
 
   .bg-image {
-    img {
-      border-radius: 2rem;
-    }
-
     &:nth-child(1) {
       top: 2%;
       left: -4%;
@@ -48,7 +44,7 @@
       top: 60%;
       left: 75%;
       width: 22%;
-      height: 40%;
+      height: 37%;
     }
     &:nth-child(4) {
       top: 27%;
@@ -122,10 +118,6 @@
     }
 
     .bg-image {
-      img {
-        border-radius: 1.5rem;
-      }
-
       &:nth-child(1) {
         top: 3rem;
         left: -3%;

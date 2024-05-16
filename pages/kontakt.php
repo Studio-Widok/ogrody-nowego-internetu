@@ -17,10 +17,18 @@
 
   <div class="title accent">kontakt</div>
   <div class="r"></div>
-  <div class="text" id="intro-text">
-    <p>grupa@robocza.org</p>
-    <p>Instagram</p>
-    <p>https://mvu.pl</p>
+  <div class="text">
+    <p>
+      Fundacja Grupa Robocza<br>
+      <a href="mailto:grupa@robocza.org"
+        class="fancy-link">grupa@robocza.org</a><br>
+      <a href="https://www.grupa.robocza.org" class="fancy-link" target="_blank"
+        rel="noopener noreferrer">grupa.robocza.org</a><br>
+      <a href="https://www.instagram.com/grupa.robocza/" class="fancy-link"
+        target="_blank" rel="noopener noreferrer">instagram</a><br>
+      <a href="https://mvu.pl" class="fancy-link" target="_blank"
+        rel="noopener noreferrer">mvu.pl</a>
+    </p>
   </div>
 
   <div class="rsep"></div>

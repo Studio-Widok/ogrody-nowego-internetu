@@ -27,6 +27,7 @@
   position: absolute;
   inset: 0;
   z-index: -1;
+  transform: scale(1.12);
 
   img {
     display: block;
@@ -34,6 +35,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: 2rem;
   }
 
   &__cutoff {
@@ -117,6 +119,19 @@ button,
   margin: 0 auto;
   text-transform: uppercase;
   font-size: $fontSizeLarge;
+
+  &:hover {
+    transform: rotate(5deg);
+  }
+
+  &:active {
+    transform: rotate(8deg);
+  }
+}
+
+.fancy-link {
+  display: inline-block;
+  text-decoration: underline;
 
   &:hover {
     transform: rotate(5deg);
