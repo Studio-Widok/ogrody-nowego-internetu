@@ -9,4 +9,10 @@
       height: min(36.5rem, 36.5vw * $fontRatio);
     }
   }
+
+  @media (max-width: $resPhone) {
+    #nav-logo {
+      top: 3rem;
+    }
+  }
 }

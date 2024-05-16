@@ -16,6 +16,10 @@
     @media (max-width: $resLarge) {
       margin: 3em 0 9em 0;
     }
+
+    @media (max-width: $resTablet) {
+      margin: 0;
+    }
   }
 
   #front-logo {
@@ -155,11 +159,11 @@
     #eden {
       position: absolute;
       top: 3rem;
-      width: 40%;
+      width: min(40%, 10vh);
     }
 
     #front-logo {
-      font-size: max(min(9rem, 9vw * $fontRatio), 21vw);
+      font-size: min(21vw, 10vh);
     }
 
     #front-top-info-container {
