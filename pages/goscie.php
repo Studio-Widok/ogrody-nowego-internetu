@@ -21,34 +21,69 @@
 
     <div class="person column-inner">
       <div class="uppercase sub-accent">prof. Michał Krzykawski</div>
-      filozof techniki<br>
-      (Uniwersytet Śląski, Pracownia Współtwórcza)<br>
-      <a href="http://" target="_blank" rel="noopener noreferrer">Ekologia
-        techniki i etyka projektowania na rzecz nowej sieci →</a>
-    </div>
-
-    <div class="person column-inner">
-      <div class="uppercase sub-accent">Kat Zavada</div>
-      digital art curator, artist & researcher (ASP Kraków) www<br>
-      <a href="http://" target="_blank" rel="noopener noreferrer">Cyfrowe
-        monarchie →</a>
-    </div>
-
-    <div class="person column-inner">
-      <div class="uppercase sub-accent">Paweł Nowak</div>
-      experience and service design consultant
-      (WUD Silesia) www<br>
-      <a href="http://" target="_blank" rel="noopener noreferrer">Systemy
-        żłożone
-        ich dynamika i sprawczość →</a>
+      filozof techniki (Uniwersytet Śląski, <a href="https://wspoltworcza.org/"
+        target="_blank" rel="noopener noreferrer">Pracownia Współtwórcza</a>)
     </div>
 
     <div class="person column-inner">
       <div class="uppercase sub-accent">Piotrek Butlewski</div>
-      product designer<br>
-      (Flying Bisons) www<br>
-      <a href="http://" target="_blank" rel="noopener noreferrer">Internet po
-        skończoności →</a>
+      product designer (<a href="https://flyingbisons.com/" target="_blank"
+        rel="noopener noreferrer">Flying Bisons</a>)
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Kat Zavada</div>
+      digital art curator, artist & researcher (ASP Kraków) <a
+        href="https://katzavada.com/" target="_blank"
+        rel="noopener noreferrer">www</a>
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Paweł Nowak</div>
+      experience and service design consultant (<a href="https://wudsilesia.pl/"
+        target="_blank" rel="noopener noreferrer">WUD Silesia</a>)
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Katarzyna Drożdżal</div>
+      psycholożka, badaczka i projektantka (<a href="https://wudsilesia.pl/"
+        target="_blank" rel="noopener noreferrer">WUD Silesia</a>)
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Dorota Głowacka</div>
+      prawniczka (<a href="https://panoptykon.org/" target="_blank"
+        rel="noopener noreferrer">Fundacja Panoptykon</a>)
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Katarzyna Szymielewicz</div>
+      prawniczka (<a href="https://panoptykon.org/" target="_blank"
+        rel="noopener noreferrer">Fundacja Panoptykon</a>)
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Anna Marjankowska</div>
+      community manager (<a href="https://hafnar.haus/" target="_blank"
+        rel="noopener noreferrer">Hafnar Haus</a>)
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Arnar Sigurðsson</div>
+      software designer and developer (<a href="https://missions.dev/en/"
+        target="_blank" rel="noopener noreferrer">missions.dev</a>)
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Marcin Nowicki</div>
+      art director and designer (<a href="http://www.noviki.net" target="_blank"
+        rel="noopener noreferrer">NOVIKI</a>)
+    </div>
+
+    <div class="person column-inner">
+      <div class="uppercase sub-accent">Katarzyna Nestorowicz</div>
+      art director and designer (<a href="http://www.noviki.net" target="_blank"
+        rel="noopener noreferrer">NOVIKI</a>)
     </div>
 
   </div>
