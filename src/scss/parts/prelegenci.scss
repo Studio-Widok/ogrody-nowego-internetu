@@ -16,4 +16,18 @@
       }
     }
   }
+
+  @media (max-width: $resTablet) {
+    #people {
+      .person {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: $resPhone) {
+    #nav-logo {
+      top: 3rem;
+    }
+  }
 }

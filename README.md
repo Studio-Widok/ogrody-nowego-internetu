@@ -1,7 +1,7 @@
 - [preview](https://widok.studio/ogrody-nowego-internetu/)
 - [figma](https://www.figma.com/design/pCSP39Jy2U1znOhgDJ6PJ5/Eden-2024-www?node-id=0-1&t=3b5dXbIMdRNcQ5iY-0)
 
-## todo (24/31)
+## todo (26/30)
 - [x] navigation
 - [x] footer
 - [x] front
@@ -25,11 +25,10 @@
 - [ ] responsiveness
   - [x] navigation
   - [x] footer
-  - [ ] front top
+  - [ ] front top - **olewam**
   - [x] front content
-  - [ ] prelegenci
-  - [ ] program
+  - [x] prelegenci
+  - [x] program
 - [ ] metadata
 - [x] routing
-- [ ] lazy loading
-- [ ] add missing texts and links
+- [ ] lazy loading - **olewam**

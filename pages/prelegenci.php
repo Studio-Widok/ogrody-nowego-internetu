@@ -1,6 +1,6 @@
 <?php include '../header.php'; ?>
-<?php get_part('nav', ['current' => 'prelegenci']); ?>
 <div id="prelegenci">
+  <?php get_part('nav', ['current' => 'prelegenci']); ?>
   <div class="rsep"></div>
   <div class="rsep"></div>
   <div class="content column">
@@ -52,8 +52,8 @@
     </div>
 
   </div>
+  <div class="rsep"></div>
+  <div class="rsep"></div>
 </div>
-<div class="rsep"></div>
-<div class="rsep"></div>
 <?php get_part('footer'); ?>
 <?php include '../footer.php'; ?>

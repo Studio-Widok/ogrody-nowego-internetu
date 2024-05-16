@@ -20,7 +20,7 @@
     .list-more {
       font-size: inherit;
       display: flex;
-      margin: 0 0 0 3em;
+      margin: 0 0 0 1em;
       padding: 0.3em 1.5em;
 
       .list-arrow {
@@ -58,6 +58,20 @@
 
       p:last-child {
         margin-bottom: 1em;
+      }
+    }
+  }
+
+  @media (max-width: $resPhone) {
+    .list-title {
+      flex-wrap: wrap;
+
+      .list-title {
+        width: 100%;
+      }
+
+      .list-more {
+        margin-left: auto;
       }
     }
   }

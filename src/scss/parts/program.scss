@@ -10,4 +10,10 @@
     width: 100%;
     height: auto;
   }
+
+  @media (max-width: $resPhone) {
+    #nav-logo {
+      top: 3rem;
+    }
+  }
 }
